@@ -43,27 +43,20 @@ const Ecosystem = () => {
               <div className={styles.paddingX}>
                   <img src={franquicias03} alt="franquicias03" className="h-24 w-52 object-contain mt-8 mb-8" />
                   <p className="font-inter font-normal text-[#000000] text-[15px] leading-[20px] max-w-[470px] mt-3">
-                  Everdom gestionará tu capital y te hará llegar un reporte mensual
-                  con el detalle de los rendimientos generados. Al contar con tu
-                  capital en cuenta propia, nuestro Broker se encargará de
-                  dispersar los rendimientos correspondientes, donde te
-                  corresponderá del 40% al 50%* y el resto lo dispersará a Everdom,
-                  tu gestor de capital. 
-                  </p>
-                  <p className="font-inter font-normal text-[#000000] text-[15px] leading-[20px] max-w-[470px] mt-3">
-                  Para nosotros es muy importante la transparencia, por esto
-                  ponemos a tu disposición una plataforma donde podrás ver en
-                  vivo el crecimiento de tu capital. También podrás aumentar o
-                  retirar tu dinero en el momento que deseés.
+                  De manera conjunta o individual, podrás ser accionista de
+                  una franquicia sin tener que preocuparte por la
+                  administración de esta, ya que Everdom te acompañará y
+                  hará la gestión de la misma. Recibiendo de manera
+                  mensual los rendimientos generados.
                   </p>
               </div>
               <div className={`${styles.paddingX} place-content-end`}>
                   <img src={startup04} alt="startup04" className="h-36 w-80 object-contain" />
                   <p className="font-inter font-normal text-[#000000] text-[15px] leading-[20px] max-w-[470px] mt-3">
-                  Podrás tener propiedad parcial o total de una o más
-                  propiedades y desarrollos generando un ingreso adicional
-                  para ti, ya sea por concepto de arrendamiento o por venta
-                  del inmueble.
+                  Everdom evaluará y te recomendará start-ups con
+                  potencial de crecimiento para que puedas ser parte de
+                  ellas ayudando a la generación de empleos formales,
+                  crecer tu patrimonio y el de dichas empresas.
                   </p>
               </div>
             </div>
