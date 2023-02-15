@@ -1,13 +1,13 @@
-import React from 'react'
+import React from 'react';
 import styles from '../style';
 import { everdomIcon } from '../assets';
 
 const Hero = () => {
   return (
-    <section id="home" className="justify-between flex md:flex-row flex-col py-2">
+    <section id="home" className="justify-between columns-2 flex md:flex-row flex-col py-2">
       <div className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6`}>
 
-        <div className="flex flex-row justify-between items-center w-full">
+        <div className="row-span-1 flex flex-row justify-between items-center w-full">
           <h1 className="flex-1 font-roboto font-semibold ss:text-[65px] 
             text-[50px] text-white ss:leading-[100px] leading-[75px]">
             Así como un río <br className="sm:block hidden"/> {" "}
@@ -17,8 +17,8 @@ const Hero = () => {
             </span> 
           </h1>
         </div>
-        <div>
-            <p className="font-roboto font-light text-dimWhite text-[20px] leading-[30px] max-w-[550px] mt-5">
+        <div row-span-2>
+            <p className="font-roboto font-light text-[#FFFF] text-[20px] leading-[30px] max-w-[550px] mt-5">
             La naturaleza de los ecosistemas cíclicos es fascinante: lo vemos
             en las cadenas alimenticias, la reproducción o incluso con los aros
             de las vetas en los árboles, todas traen bondades de forma natural
@@ -29,8 +29,8 @@ const Hero = () => {
             </p>
         </div>
       </div>
-        <div className={`${styles.padding} items-center sm:flex-row`}>
-           <img src={everdomIcon} alt="everdomIcon" className="w-[382px] h-[382px] z-[5]"/>
+        <div className={`${styles.padding} justify-center sm:flex-row`}>
+           <img src={everdomIcon} alt="everdomIcon" className="flex-1 max-w-[400px] max-h-[400px] justify-center z-10"/>
         </div>
 
     </section>

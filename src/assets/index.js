@@ -16,10 +16,6 @@ import logoRegistrado from "./logoRegistrado.jpg";
 import logoVerde1 from "./logoVerde1.png";
 import logoVerde2 from "./logoVerde2.png";
 import graficaCurva01 from "./graficaCurva01.png";
-import barraEverdom01 from "./barraEverdom01.jpg";
-import barraEverdom02 from "./barraEverdom02.jpg";
-import barraEverdom03 from "./barraEverdom03.jpg";
-import barraEverdom04 from "./barraEverdom04.jpg";
 import graficoEverdom from "./graficoEverdom.png";
 import bursatil01 from "./bursatil01.png";
 import recursos02 from "./recursos02.png";
@@ -51,10 +47,6 @@ export {
   logoVerde1,
   logoVerde2,
   graficaCurva01,
-  barraEverdom01,
-  barraEverdom02,
-  barraEverdom03,
-  barraEverdom04,
   graficoEverdom,
   bursatil01,
   recursos02,

@@ -24,7 +24,7 @@ const Business = () => {
       <div className={`${layout.sectionInfo} ${styles.padding}`}>
         <h2 className={`${styles.heading2} text-[#000000]`}>Inversiones que <br className="sm:block hidden"/> 
         se renuevan.</h2>
-        <p className={`${styles.paragraph} text-[#000000] max-w-[530px] mt-5`}>
+        <p className={`font-inter font-light text-[25px] leading-[30.8px] text-[#000000] max-w-[530px] mt-5`}>
         Somos un ecosistema que ofrece una diversa variedad
         de sectores de inversión; desde una primera aportación
         puedes generar rendimientos que a largo plazo darán forma a otros

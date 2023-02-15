@@ -1,8 +1,8 @@
 const styles = {
     boxWidth: "xl:max-w-[1280px] w-full",
   
-    heading2: "font-roboto font-normal xs:text-[65px] text-[40px] text-white xs:leading-[76.8px] leading-[66.8px] w-full",
-    paragraph: "font-inter font-light text-dimWhite text-[25px] leading-[30.8px]",
+    heading2: "font-roboto font-semibold xs:text-[65px] text-[40px] text-[#000000] xs:leading-[76.8px] leading-[66.8px] w-full",
+    paragraph: "font-inter font-light text-[#FFFF] text-[25px] leading-[30.8px]",
   
     flexCenter: "flex justify-center items-center",
     flexStart: "flex justify-center items-start",

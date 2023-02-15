@@ -4,15 +4,15 @@ import styles, { layout } from '../style';
 
 const Ecosystem = () => {
   return (
-    <section id="ecosistema" className={`${layout.section} ${styles.padding}`}>
+    <section id="ecosistema" className={`${styles.padding}`}>
         <div className={layout.sectionInfo}>
-            <h2 className="font-roboto font-semibold xs:text-[65px] text-[40px] text-[#000000] xs:leading-[76.8px] leading-[66.8px] w-full">
+            <h2 className="font-roboto font-semibold xs:text-[65px] text-[60px] text-[#000000] xs:leading-[76.8px] leading-[66.8px] w-full mb-8">
               Nuestro ecosistema <br className="sm:block hidden"/> 
-              de inversiones </h2>
-            <div className="grid md:grid-cols-2">
+              de inversiones. </h2>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 w-full">
               <div className={styles.paddingX}>
-                  <img src={bursatil01} alt="bursatil01" className="h-24 w-48 object-contain" />
-                  <p className="font-inter font-normal text-[#000000] text-[15px] leading-[20px] max-w-[470px] mt-3">
+                  <img src={bursatil01} alt="bursatil01" className="max-w-[100%] object-scale-down max-h-[71px]" />
+                  <p className="font-inter font-normal text-[#000000] text-[18px] leading-[20px] max-w-[650px] my-4">
                   Everdom gestionará tu capital y te hará llegar un reporte mensual
                   con el detalle de los rendimientos generados. Al contar con tu
                   capital en cuenta propia, nuestro Broker se encargará de
@@ -20,29 +20,29 @@ const Ecosystem = () => {
                   corresponderá del 40% al 50%* y el resto lo dispersará a Everdom,
                   tu gestor de capital. 
                   </p>
-                  <p className="font-inter font-normal text-[#000000] text-[15px] leading-[20px] max-w-[470px] mt-3">
+                  <p className="font-inter font-normal text-[#000000] text-[18px] leading-[20px] max-w-[650px] my-4">
                   Para nosotros es muy importante la transparencia, por esto
                   ponemos a tu disposición una plataforma donde podrás ver en
                   vivo el crecimiento de tu capital. También podrás aumentar o
                   retirar tu dinero en el momento que deseés.
                   </p>
               </div>
-              <div className={`${styles.paddingX} place-content-end`}>
-                  <img src={recursos02} alt="recursos02" className="h-24 w-52 object-contain"/>
-                  <p className="font-inter font-normal text-[#000000] text-[15px] leading-[20px] max-w-[470px] mt-3">
+              <div className={`${styles.paddingX}`}>
+                  <img src={recursos02} alt="recursos02" className="max-w-[100%] object-scale-down max-h-[71px]"/>
+                  <p className="font-inter font-normal text-[#000000] text-[18px] leading-[20px] max-w-[650px] my-4">
                   Podrás tener propiedad parcial o total de una o más
                   propiedades y desarrollos generando un ingreso adicional
                   para ti, ya sea por concepto de arrendamiento o por venta
                   del inmueble.
                   </p>
               </div>
-            </div>
 
 
-            <div className="grid md:grid-cols-2">
+
+
               <div className={styles.paddingX}>
-                  <img src={franquicias03} alt="franquicias03" className="h-24 w-52 object-contain mt-8 mb-8" />
-                  <p className="font-inter font-normal text-[#000000] text-[15px] leading-[20px] max-w-[470px] mt-3">
+                  <img src={franquicias03} alt="franquicias03" className="max-w-[100%] object-scale-down max-h-[71px]" />
+                  <p className="font-inter font-normal text-[#000000] text-[18px] leading-[20px] max-w-[650px] my-4">
                   De manera conjunta o individual, podrás ser accionista de
                   una franquicia sin tener que preocuparte por la
                   administración de esta, ya que Everdom te acompañará y
@@ -50,9 +50,9 @@ const Ecosystem = () => {
                   mensual los rendimientos generados.
                   </p>
               </div>
-              <div className={`${styles.paddingX} place-content-end`}>
-                  <img src={startup04} alt="startup04" className="h-36 w-80 object-contain" />
-                  <p className="font-inter font-normal text-[#000000] text-[15px] leading-[20px] max-w-[470px] mt-3">
+              <div className={`${styles.paddingX}`}>
+                  <img src={startup04} alt="startup04" className="max-w-[100%] object-scale-down max-h-[71px]" />
+                  <p className="font-inter font-normal text-[#000000] text-[18px] leading-[20px] max-w-[650px] my-4">
                   Everdom evaluará y te recomendará start-ups con
                   potencial de crecimiento para que puedas ser parte de
                   ellas ayudando a la generación de empleos formales,
