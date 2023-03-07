@@ -13,7 +13,7 @@ const Ecosystem = () => {
               <div className={styles.paddingX}>
                   <img src={bursatil01} alt="bursatil01" className="max-w-[100%] object-scale-down max-h-[71px]" />
                   <p className="font-inter font-normal text-[#000000] text-[18px] leading-[20px] max-w-[650px] my-4">
-                  Nuestra tasa de rendimientos es variable, asignando para nuestros inversionistas el 50% de lo generado 
+                  Nuestra tasa de rendimientos es variable, asignando para nuestros inversionistas hasta el 50% de lo generado 
                   mes con mes. 
                   </p>
                   <p className="font-inter font-normal text-[#000000] text-[18px] leading-[20px] max-w-[650px] my-4">
