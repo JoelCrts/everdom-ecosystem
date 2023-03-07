@@ -22,7 +22,7 @@ const Business = () => {
   return (
     <section id="features" className={`${layout.section}`}>
       <div className={`${layout.sectionInfo} ${styles.padding}`}>
-        <h2 className={`${styles.heading2} text-[#000000]`}>Inversiones que <br className="sm:block hidden"/> 
+        <h2 className="font-roboto font-semibold xs:text-[65px] text-[60px] text-[#000000] xs:leading-[76.8px] leading-[66.8px] w-full mb-8">Inversiones que <br className="sm:block hidden"/> 
         se renuevan.</h2>
         <p className={`font-inter font-light text-[25px] leading-[30.8px] text-[#000000] max-w-[530px] mt-5`}>
         Somos un ecosistema que ofrece una diversa variedad

@@ -25,14 +25,14 @@ export const features = [
     icon: iconoNegro,
     title: "Rendimiento",
     content:
-      "Dentro de Everdom tus inversiones podrán crecer de manera firme, donde podrás obtener una ganancia desde 40% hasta 50% sobre los rendimientos generados.",
+      "Dentro de Everdom tus inversiones podrán crecer de manera firme, donde podrás obtener una ganacia de hasta el 50% sobre los rendimientos generados.",
   },
   {
     id: "feature-2",
     icon: iconoNegro,
     title: "Beneficios",
     content:
-      "Con el paso del tiempo, tus rendimientos, y nuestra comunidad, podrá ser más fácil participar en la adquisición de bienes raíces, franquicias comerciales o comprar participación en las próximas startups tecnológicas como lo fueron alguna vez Uber, Airbnb, o Rappi.",
+      "Con el paso del tiempo, tus rendimientos, y nuestra comunidad, podrá ser más fácil participar en la adquisición de bienes raíces, franquicias comerciales o comprar participación en las próximas startups tecnológicas como lo fueron alguna vez Uber, Airbnb o Rappi.",
   },
   {
     id: "feature-3",
@@ -60,11 +60,6 @@ export const footerLinks = [
 ];
 
 export const socialMedia = [
-  {
-    id: "social-media-1",
-    icon: instagram,
-    link: "https://www.instagram.com/everdom.ei/?igshid=YmMyMTA2M2Y%3D",
-  },
   {
     id: "social-media-2",
     icon: facebook,

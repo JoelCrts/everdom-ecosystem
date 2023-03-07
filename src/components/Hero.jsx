@@ -5,9 +5,9 @@ import { everdomIcon } from '../assets';
 const Hero = () => {
   return (
     <section id="home" className="justify-between columns-2 flex md:flex-row flex-col py-2">
-      <div className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6`}>
+      <div className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:pl-16 pl-6 pr-2`}>
 
-        <div className="row-span-1 flex flex-row justify-between items-center w-full">
+        <div className="flex flex-row justify-between items-center w-full">
           <h1 className="flex-1 font-roboto font-semibold ss:text-[65px] 
             text-[50px] text-white ss:leading-[100px] leading-[75px]">
             Así como un río <br className="sm:block hidden"/> {" "}
@@ -29,8 +29,8 @@ const Hero = () => {
             </p>
         </div>
       </div>
-        <div className={`${styles.padding} justify-center sm:flex-row`}>
-           <img src={everdomIcon} alt="everdomIcon" className="flex-1 max-w-[400px] max-h-[400px] justify-center z-10"/>
+        <div className={`${styles.paddingY} justify-center sm:mx-4 sm:flex-row`}>
+           <img src={everdomIcon} alt="everdomIcon" className="flex-1 max-w-[375px] max-h-[375px] mr-7 ml-3 justify-center z-10"/>
         </div>
 
     </section>
