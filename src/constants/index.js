@@ -7,7 +7,7 @@ export const navLinks = [
   },
   {
     id: "features",
-    title: "Nosotos",
+    title: "Nosotros",
   },
   {
     id: "ecosistema",
