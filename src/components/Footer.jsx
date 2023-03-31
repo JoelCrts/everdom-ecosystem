@@ -26,7 +26,7 @@ const Footer = () => {
                     <li className="font-inter font-normal text-[16px]
                     leading-[24px] text-dimWhite hover:text-[#A9F6BD] cursor-pointer">
                       <a 
-                      href="https://wa.me/523323401341?text=Hola,%20me%20interesa%20obtener%20más%20información" 
+                      href="https://wa.me/523323329221?text=Hola,%20me%20interesa%20obtener%20más%20información" 
                       target="_blank">
                         +52 33 2340 1341</a>
                     </li>
