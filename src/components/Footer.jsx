@@ -28,7 +28,7 @@ const Footer = () => {
                       <a 
                       href="https://wa.me/523323329221?text=Hola,%20me%20interesa%20obtener%20más%20información" 
                       target="_blank">
-                        +52 33 2340 1341</a>
+                        +52 33 2332 9221</a>
                     </li>
                </ul>
             </div>
